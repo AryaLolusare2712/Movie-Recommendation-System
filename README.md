@@ -53,3 +53,34 @@ movie-recommendation-system
 git clone https://github.com/AryaLolusare2712/movie-recommendation-system.git
 cd movie-recommendation-system
 ```
+
+---
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+If requirements.txt is not present, install manually:
+
+```bash
+pip install pandas numpy scikit-learn flask
+```
+
+---
+
+### 3. Run the App
+Unzip the frontend folder:
+
+```bash
+unzip frontend.zip
+```
+
+Then start the Flask backend:
+
+```bash
+python app.py
+```
+
+Visit http://127.0.0.1:5000 in your browser.
