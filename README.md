@@ -1,5 +1,9 @@
 # 🎬 Movie Recommendation System using Machine Learning
 
+## Project contribution
+
+Demonstrates an accessible content-based recommendation workflow that converts movie metadata into relevant viewing suggestions.
+
 ## Architecture
 
 ```mermaid
