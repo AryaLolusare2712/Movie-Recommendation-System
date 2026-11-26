@@ -1,5 +1,15 @@
 # 🎬 Movie Recommendation System using Machine Learning
 
+## Architecture
+
+```mermaid
+flowchart LR
+  U[Movie selection] --> F[Content feature extraction]
+  F --> S[Similarity engine]
+  S --> D[Movie metadata]
+  S --> O[Recommended titles]
+```
+
 A content-based movie recommendation system that suggests similar movies based on user input using machine learning techniques.
 
 ---
